@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <nav>
+    <div class="left">
+      <a href="/"> Samylle Jensen</a>
+    </div>
+
+    <div class="right">
+     <a href="https://github.com/SaamyJen" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-github"></i>
+      <span>Github</span>
+     </a>
+
+     <a href="https://www.linkedin.com/in/samyllejensen/" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-linkedin"></i>
+      <span>linkedin</span>
+    </a>
+
+    <a href="mailto:samyllejsilva@gmail.com">
+      <i class="fa-solid fa-envelope"></i>
+      <span>Email</span>
+    </a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section">
+      <div class="text">
+        <h2>Olá, meu nome é Samylle 👋🏼</h2>
+        <p>Desenvolvedora full-stack júnior com experiência em HTML, CSS, JavaScript, Python e Ruby on Rails, focada na criação de aplicações web completas, desde o front-end responsivo até a lógica de back-end.
+        </p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>História</span>
+          </a>
+
+          <a href="#contato">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contato</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/Samylle-profilePic.png" alt="Samy headshot">
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Minhas skills envolvem HTML, CSS, JavaScript, Python e Ruby on Rails. Desenvolvo soluções web intuitivas e eficientes, sempre buscando aprimorar minhas habilidades.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+
+
+        <div class="cell">
+          <img src="images/css-logo (1).webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="JavaScript logo">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/ruby-log.webp" alt="Ruby logo">
+          <span>Ruby</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/python-log.webp" alt="Python logo">
+          <span>Python</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimony" class="testimony-section">
+      <h2>Sobre mim</h2>
+
+      <div class="group">
+        <div class="person-details">
+        <img src="images/testimony-pic.webp" alt="Samy">
+        <p>Samylle Jensen</p>
+        <p>Formada em Gestão de Tecnologia da Informação pela Universidade São Judas Tadeu(2024) e em Análise e Desenvolvimento de Sistemas pela UNINTER(2024). </p>
+      </div>
+
+        <div class="text">
+          Sou a Samylle Jensen, uma profissional apaixonada por tecnologia e inovação!
+           Além do conhecimento técnico, minhas soft skills fazem toda a diferença no meu jeito de trabalhar. Tenho adaptabilidade para encarar desafios, resiliência para aprender com cada experiência e colaboração para crescer junto com a equipe.
+          Comunicativa e proativa, gosto de compartilhar conhecimento e buscar soluções criativas. Trabalho bem em equipe, mas também sei ser independente quando necessário.
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contato</h2>
+
+      <div class="group">
+        <div class="text">
+          Está buscando bater um papo ou tem alguma dúvida? Estou super disponível para conversar!
+          Pode me chamar por aqui mesmo, e vou adorar te responder. Seja sobre tecnologia, projetos ou novas oportunidades, vamos nos conectar! 💻🌟
+        </div>
+
+        <form>
+          <label for="name">Nome</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Mensagem</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
